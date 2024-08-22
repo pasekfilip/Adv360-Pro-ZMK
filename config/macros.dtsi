@@ -1,6 +1,6 @@
-macro_alt+printscreen: macro_alt+printscreen{
+macro_altprintscreen: macro_altprintscreen{
 compatible = "zmk,behavior-macro";
-label = "macro_alt+printscreen";
+label = "macro_altprintscreen";
 #binding-cells = <0>;
 bindings = <&kp LEFT_ALT>, <&kp PRINTSCREEN>;
 };

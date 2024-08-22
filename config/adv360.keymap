@@ -31,6 +31,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        windowSwap {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <65 14>;
+        };
+
+        windowSwapReverse {
+            bindings = <&kp RS(LA(TAB))>;
+            key-positions = <65 14 59>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

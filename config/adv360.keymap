@@ -37,11 +37,13 @@
         windowSwap {
             bindings = <&kp LA(TAB)>;
             key-positions = <65 14>;
+            timeout-ms = <50>;
         };
 
         windowSwapReverse {
             bindings = <&kp RS(LA(TAB))>;
             key-positions = <65 14 59>;
+            timeout-ms = <50>;
         };
     };
 
